@@ -10,7 +10,7 @@ VAL_RATIO = 0.1
 RANDOM_STATE = 42
 
 # === Load Data ===
-data_path = os.path.join("DI725", "assignment_1", "data", "customer_service")
+data_path = os.path.join("data", "customer_service")
 df = pd.read_csv(os.path.join(data_path, "train.csv"))
 df.columns = df.columns.str.strip()
 

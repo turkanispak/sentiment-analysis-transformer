@@ -8,7 +8,7 @@ from wordcloud import WordCloud
 sns.set(style="whitegrid")
 
 # Define path
-data_path = os.path.join("DI725", "assignment_1", "data", "customer_service")
+data_path = os.path.join("data", "customer_service")
 
 # Load data
 train_df = pd.read_csv(os.path.join(data_path, "train.csv"))
