@@ -1,0 +1,358 @@
+Overriding: out_dir = out-gpt2-finetune
+Overriding: start = Customer: I'm very angry because
+number of parameters: 123.65M
+No meta.pkl found, assuming GPT-2 encodings...
+Customer: I'm very angry because you sent an invoice to claim my discount. May I know the reason for the invoice claim?
+
+Agent: Sure, Mr. Smith. Our system keeps track of the amount you claim for your order. We do it by logging the amount and billing your account.
+
+Customer: Okay, I understand that. But I noticed that the discount was deducted from my invoice. Can you tell me why?
+
+Agent: I'm sorry, Mr. Smith. We deduct the discount from the invoice if there are any discrepancies. Unfortunately, there's a
+### SENTIMENT: negative
+Customer: Hi, I'm calling to inquire about my return and exchange order for a BP monitor I purchased from BrownBox.
+
+Agent: Hello, I'm happy to assist you today. My name is Sarah, and I'll be happy to assist you. May I have your order number, please?
+
+Customer: Yes, it's BB12345.
+
+Agent: Thank you for providing that information. Let me check the status of your order. Could you please hold for a moment?
+
+Customer: Okay, I'll hold.
+
+Agent: Thank you for waiting. I have checked your order, and I can see that the product was delivered to you two weeks ago. Could you please confirm if there are any issues with the return and exchange process?
+
+Customer: No, there's no issue at all.
+
+Agent: I'm sorry, but I'm unable to make any further arrangements with the seller for the return and exchange period. The return period will commence on the day after the product is received, and will last for two weeks after the original delivery date.
+
+Customer: That's not ideal. I would like to inspect the product
+### SENTIMENT: neutral
+Agent: Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
+
+Customer: Hi Sarah, my name is John. I made an order for a pair of sunglasses, and I want to confirm the status of my order.
+
+Agent: Sure, John. I'd be happy to assist you with that. May I have your order number, please?
+
+Customer: Yes, my order number is BB12345.
+
+Agent: Thank you, John. Let me check the status of your order for you. Can you please hold for a moment while I check?
+
+
+---------------
+Customer: I'm very angry because I received a defective product. I want to return it.
+
+Agent: I'm sorry to hear that. Can you please provide me with your order number and the reason for the return?
+
+Customer: Yes, my order number is BB789012, and the product is a Samsung Watch.
+
+Agent: Thank you for providing the details. I see that you ordered a Samsung Watch from us, and the product is not the latest generation of smartwatches. I apologize for the inconvenience caused. May I know the reason for the return?
+
+Customer: The Samsung Watch is not the latest generation of smartwatches. I was expecting a different model.
+
+Agent: I understand your concern. We stock the latest generation of smartwatches, and we have a minimum warranty of one year. However, we are not happy about the warranty terms. I can understand how frustrating it can be to return a product, but I'm afraid I have no choice but to pay for a return.
+
+Customer: What? That's ridiculous! You have to pay for a return, and you cannot hold on to the product while I do
+### SENTIMENT: negative
+Agent: Hello, thank you for calling BrownBox Customer Support. My name is Sarah, how may I assist you today?
+
+Customer: Hi, I'm calling because I lost my warranty card for a BP monitor on your website. I was supposed to receive a replacement card the next business day, but I haven't received it yet.
+
+Agent: I'm sorry to hear that you're having trouble with your warranty. May I have your order number, please?
+
+Customer: Sure, it's BB789012.
+
+Agent: Thank you for providing the order number. I'm checking your order now. It looks like your warranty card hasn't been issued yet. Can you please provide me with more details about the issue you're facing with your warranty card?
+
+Customer: Yes, I lost my warranty card, but I lost the warranty card slot. Can you help me with the replacement cost for that?
+
+Agent: I'm sorry to hear that. We do have a prepaid replacement fee of your choice that helps cover the replacement cost. Would you like me to check if your replacement was free?
+
+Customer: No, I paid for the replacement with cash.
+
+Agent: Thank you for verifying. We do have an exchange offer
+---------------
+Customer: I'm very angry because I have not received payment for my diaper. The bank denied my payment.
+
+Agent: I'm sorry to hear that. Can you please provide me with the bank account details of the bank?
+
+Customer: The bank confirmed my payment, but I'm not sure how to proceed with it.
+
+Agent: I understand your concern. Before we proceed with the issue, can you please confirm the bank address for the account?
+
+Customer: The account is #BB123456.
+
+Agent: Thank you for that information. I can see that the bank has confirmed my payment and will process the payment for you. You can proceed with the payment
+### SENTIMENT: negative
+Agent: Thank you for calling BrownBox Customer Support. My name is Alex. How may I assist you today?
+
+Customer: Hi, Alex. I have an issue with the pickup of my electric kettle from your website. It's been more than a week, and I want to return it right away.
+
+Agent: I'm sorry to hear that, sir. I'll be happy to assist you with that. May I have your order number and the name of the kettle, please?
+
+Customer: Sure, my order number is BB789012, and the kettle is currently being processed.
+
+Agent: Thank you for the information. I see that the kettle was delivered to you yesterday. We will arrange for a pickup from your address on Monday, and the order will be shipped to your address on Wednesday. We apologize for any inconvenience this has caused you.
+
+Customer: This is ridiculous. I need the electric kettle urgently. I can't wait to pickup it from your website.
+
+Agent: I understand your frustration, sir. Let me check that for you. Could you please provide me with the order number and the name of the kettle?
+
+Customer: The order number is #BB123456, and the kettle is the product of our recent product recall.
+
+Agent: Thank you for the information, sir. Let me check that for you. Could you please hold for a moment while I look into the response time for your order?
+
+Customer: Okay, I'll hold.
+
+A/
+
+Customer: The next few minutes were not enough to initiate the pickup. I was also informed that the kettle is already damaged during transit. Can you recall the details?
+
+Agent: Sure, sir.
+---------------
+Customer: I'm very angry because I was not informed when I bought this product.
+
+Agent: I see. Thank you for providing the information. Can you please provide me with the model number of this washing machine?
+
+Customer: It's XYZ model number 123456.
+
+Agent: Thank you. Let me check the details of your order. Please hold for a moment.
+
+[Agent puts the customer on hold for a few minutes]
+
+Agent: Thank you for waiting. I have checked the details of your order, and I see that the washing machine was delivered to you on 1st August.
+
+Customer: That's a great news. I was able to save some money by using this product.
+
+Agent: I'm very sorry to hear that the washing machine didn't meet your expectations. I've spoken to a few of our trusted partners, and they all informed me that they were unhappy with the product.
+
+Customer: Yes, I understand. But I was expecting a different brand. Do you
+### SENTIMENT: negative
+Agent: Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
+
+Customer: Hi Sarah, I am trying to reactivate my account, but I am unable to do so. Can you please tell me why I am being asked to do so?
+
+Agent: I am sorry to hear that you are being asked to reactivate your account. May I know your order number and the email address associated with your account?
+
+Customer: Sure, my order number is 123456 and my email address is johnsmith@email.com.
+
+Agent: Thank you for the information. I can see that the account has been inactive for some time now. As per our system, your account is in good order. However, we would like to inform you that we have initiated an account reset process that may or may not be in place.
+
+Customer: Okay, that's fine. But I have been having login attempts to my account reset error messages. Can you please help me with this?
+
+Agent: Sure, I can help you with that. May I know your login attempts to the account?
+
+Customer: Yes, I have returned four different food allergies
+### SENTIMENT: neutral
+Agent: Thank you for calling BrownBox Customer Support. My name is Sarah. How may I assist you today?
+
+
+---------------
+Customer: I'm very angry because I never saw that on your website.
+
+Agent: Sure, I'd be happy to help you with that. May I have your order number, please?
+
+Customer: Yes, my order number is BB123456.
+
+Agent: Thank you, Jack. I'm checking the return policy, and I can see that we can process a refund for customers regarding the product's original packaging. However, we are giving you a 1-day return window for the product, if you're not satisfied with the product.
+
+Customer: (After a few minutes) I don't want any damage. I ordered the product back in our original packaging, and I want a refund for the damage I caused.
+
+Agent: I'm sorry, Jack. I'm sorry for the inconvenience caused. I can understand how frustrating that must be. Let me check the return policy for you. (Customer is put on hold for a minute)
+
+Agent: Thank you for waiting, Jack. I've reviewed the return policy for you, and it states that we'll initiate a refund for customers on the 30th day of the month following the item's original packaging date. The refund should reflect in your account within the next 2-3 business days.
+
+Customer: Why are you waiting? I need the product for a party, and I didn't tamper with it. Can't you fix this for me?
+
+Agent: I understand your frustration, Jack. The refund should reflect in your account within the next 2-3 business days.
+
+Customer: Okay, that's fine. But I need the Oven Toaster Grills (OTG) as well. Can you help me with that?
+
+Agent: Of course, Jack. I'll get the OTG installed on the product as soon as possible. Could you please guide me on how to do that?
+
+Customer: [stammers
+### SENTIMENT: negative
+Agent: Thank you for calling BrownBox Customer Support. My name is John. How may I assist you today?
+
+Customer: Hi John, my name is Emily. I am looking to buy a toy for my nephew's birthday. Can you help me with that?
+
+Agent: Of course, Emily. I will be happy to assist you. May I know what kind of toy you are looking for?
+
+Customer: Well, he is a big fan of superhero toys. Do
+---------------
+Customer: I'm very angry because I was misled by your website. I was promised a discount on my Juicer/Mixer/Grinder, and I haven't received it.
+
+Agent: I'm sorry to hear that. I can understand how frustrating that can be. May I have your order number, please?
+
+Customer: Sure, it's BB123456.
+
+Agent: Thank you. Let me check that for you. Let's take a look.
+
+(Customer is put on hold for a minute.)
+
+Agent: Thank you for waiting. I apologize for the delay. The discount you are receiving is not applicable to your order.
+
+Customer: But I paid for the Juicer/Mixer/Grinder, and I haven't received it.
+
+Agent: I am sorry for the inconvenience. I can understand your frustration. Can you please confirm the date when you paid for the Juicer/Mixer/Grinder?
+
+Customer: I paid for delivery on the 12th of this month.
+
+Agent: Thank you for confirming. I apologize for the delay. Let me check the details for you.
+
+Customer: 
+### SENTIMENT: negative
+Agent: Thank you for calling BrownBox Customer Support. My name is Alex. How may I assist you today?
+
+Customer: Hi Alex, I recently purchased a T-shirt from your website and I want to know how to enter the promo code used for the purchase.
+
+Agent: Sure, I can help you with that. May I know the name of the seller and the product you purchased?
+
+Customer: Yes, the seller's name is Fashionista and I bought a black T-shirt with a white design on it.
+
+Agent: Great, thank you for providing that information. Let me guide you through the code generation process. First, you'll need to visit the website and click on the "Checkout" button. Once you click on that, you'll be taken to the "Promo Code" section. Once you click on the "Generate Code" button, you'll be sent a t
+### SENTIMENT: neutral
+Agent: Hello, thank you for calling BrownBox Customer Support. My name is Sarah, how may I assist you today?
+
+Customer: Hi, I'm calling because I received my sweatshirt from BrownBox, and it's not working correctly. I would like to return
+---------------
+Customer: I'm very angry because you chose to cancel my order. I apologize for the inconvenience.
+
+Agent: I understand your frustration. Before we proceed with the process of canceling your order, I will need to verify your mobile number and email address. May I have your name and email address, please?
+
+Customer: My name is Jane Doe, and my email address is janedoe@email.abc.net.
+
+Agent: Thank you, Jane. I can see that you have an order for a pair of shoes on your website. The shoes are currently in stock, and you can schedule an order for shipment by calling 1-800-447-3490 or emailing the order number.
+
+Customer: Okay, but what happens if I miss the scheduled delivery?
+
+Agent: We can cancel the order if it is not within the scheduled delivery period. If the order is too late, we will cancel the delivery. However, please note that we will charge an extra delivery fee for expedited shipping.
+
+Customer: Okay, but what about expedited shipping? I want to hurry it up for you. Please note that the order is still outside the estimated delivery time.
+
+Agent: I understand your concern, Jane. However, our shipping service provider will deliver the order within 7 business days, and the extra delivery fee will be refunded to your bank account.
+
+Cust
+### SENTIMENT: negative
+Customer: Hi, I'm calling because I am interested in purchasing a Kitchen Chimney from BrownBox, but I am unable to find the seller's returns policy.
+
+Agent: Hi there! My name is Sarah, and I'll be happy to assist you with your inquiry. Can you please provide me with the name or product code of the Kitchen Chimney you're interested in purchasing?
+
+Customer: Yes, it's the ABC Kitchen Chimney, product code KCH12345.
+
+Agent: Thank you for providing that information. Let me check the product details and seller's returns policy for you. Can you please hold for a moment?
+
+Customer: Sure, thank you.
+
+(Agent puts the customer on hold for two minutes)
+
+Agent: Thank you for holding. I have reviewed the product details and seller's returns policy for you. The ABC Kitchen Chimney is sold by our trusted seller, XYZ Appliances. Their returns policy for this product is as follows: If the
+---------------
+Customer: I'm very angry because I've paid for the air conditioner and the washing machine before, and I was supposed to receive a refund for them.
+
+Agent: I'm sorry to hear that, and I understand how frustrating it can be. Let me check if there's anything we can do to resolve the issue. May I have your order number and registered email address, please?
+
+Customer: Sure please.
+
+Agent: Thank you, Lisa. I can see your order number and registered email address. Could you please hold for a minute while I look that up?
+
+(Customer is put on hold for a minute.)
+
+Agent: Lisa, thank you for holding. I have checked the details of your order, and I see that you're eligible for a refund for the air conditioner that was delayed due to our negligence. May I know the reason for the refund?
+
+Customer: The air conditioner was not working correctly. I tried to use it, but the timer was not working, and the battery was low.
+
+Agent: I apologize for the inconvenience caused, Lisa. The refund will be processed once the product is back in stock. Can you please tell me when you received the product?
+
+Customer: I received it a week ago.
+
+Agent: I see. Unfortunately, the refund was processed on the same day as the order was placed. However, we do have a 30-day refund window, which allows us to claim the refund.
+
+Customer: That's ridiculous. Can't you just send over the product and get it back to you?
+
+Agent: I understand your frustration, Lisa. However, we do have a 30-day return policy, which allows us to initiate the refund once we receive the product. You can use this window to initiate the refund once the product is in your possession.
+
+Customer: Alright, I understand. Can you guide me through the process?
+
+Agent: Sure, Lisa. First, we will need to verify your mobile number and email address. Then, we will need to verify your bank account details to claim the refund.
+
+Customer: Okay, that sounds easy. Can you guide me through the verification process?
+
+Agent: Sure, Lisa. Firstly, we need to verify your account details using our third-party verification service, VeriSign. VeriSign is our trusted third-party verification service that allows us to verify your account and provide you
+---------------
+Customer: I'm very angry because I did not receive any personal information when I purchased the shoes.
+
+Agent: I apologize for the inconvenience caused. I can understand how frustrating it can be to receive a return or replacement. Can you please tell me what the issue is?
+
+Customer: The shoes are not working correctly. They are ragging, and I want to return or exchange them.
+
+Agent: I'm sorry to hear that. We take such issues seriously. However, we cannot guarantee the return or replacement.
+
+Customer: What do you mean? I paid a late fee.
+
+Agent: I see. In that case, it's your responsibility to contact the service center to initiate the return or replacement process. Once you receive the shoes, they will be checked for faults and 
+### SENTIMENT: negative
+Agent: Thank you for calling BrownBox Customer Support. My name is Alex. How may I assist you today?
+
+Customer: Hi Alex, I recently ordered a Pram/Stroller from BrownBox, and I wanted to confirm the order status.
+
+Agent: Sure, I'd be happy to assist you with that. May I have your order number, please?
+
+Customer: Yes, it's #BB789012.
+
+Agent: Thank you for providing your order number. Let me check the status of your order. Please bear with me for a moment.
+
+[Agent puts the customer on hold briefly to check the order status]
+
+Agent: Thank you for waiting. I have confirmed that your order has been processed and is currently in transit. You should receive it within the next 2-3 business days.
+
+Customer: That's great to hear. Can you please confirm the courier details and the expected delivery date?
+
+Agent: Sure, let me check that for you. Could you please provide me with the address you're using?
+
+Customer: Yes, it's a 123 Main Street, Anytown, USA.
+
+Agent: Thank you. I can see that you ordered a 1500-series Pram/Stroller from us. May I know the estimated delivery date for your order?
+
+Customer: It should arrive within the next 24 hours.
+
+Agent: Alright, let me check the status of your order. Please bear with me for a moment.
+
+[Agent puts the customer on hold briefly to check the issue]
+
+Agent: Thank you for waiting
+---------------
+Customer: I'm very angry because you didn't honor the order confirmation email I received on your behalf.
+
+Agent: I see. I apologize for the inconvenience. We will send you a confirmation email with the tracking information, including your name, address, and date of purchase.
+
+Customer: Thank you, Sarah. I received the confirmation email, but it says that I need to ship it back. Can you help me with this?
+
+Agent: I'm sorry, and I understand you may want to return the product if it's not as expected. However, I will make sure that everything is in order and that the refund is processed in the same way as if returned with a return label.
+
+Customer: Okay, but I have 2 more weeks
+### SENTIMENT: negative
+Agent: Hello, thank you for contacting BrownBox customer support. My name is Lily. How may I assist you today?
+
+Customer: Hi Lily, I am very frustrated with the product. I received the product two days ago, and the seal was broken. I want to return it.
+
+Agent: I'm sorry to hear that you received the product, and I understand how frustrating it can be. May I know your order number and the phone number associated with your account?
+
+Customer: Sure, my order number is #123456789, and my phone number is (555) 123-4567.
+
+Agent: Thank you for providing the details. Let me check your order details. Please bear with me for a moment.
+
+[Agent puts the customer on hold briefly to look up the issue]
+
+Agent: Thank you for your patience. I have checked your order details, and I see that you have a repair request. Please inform me the reason for the return.
+
+Customer: The package was tampered with during shipping. The package was returned with a damage ca
+### SENTIMENT: negative
+Agent: Thank you for calling BrownBox Customer Support. My name is John. How may I assist you today?
+
+Customer: Hi John, I am calling regarding my order for baby food. It's still in transit, and I am not receiving my order due the next business day.
+
+Agent: I'm sorry to hear that. May I know the reason for the delay in your order?
+
+Customer: The package was supposed to be delivered to my location on Monday, but I haven't received it yet
+---------------
