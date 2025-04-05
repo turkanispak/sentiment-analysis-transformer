@@ -7,8 +7,8 @@ wandb_log = True # don't mind if I do
 wandb_project = 'transformer-sentiment-analysis'
 wandb_run_name = 'ft-gpt2-customer-' + str(time.time())
 
-dataset = 'data_gpt2'  # uses train.txt and val.txt inside this folder
-init_from = 'gpt2' # this is the GPT-2 model
+dataset = 'customer_service'  # uses train.txt and val.txt inside this folder
+init_from = 'gpt2-medium' # this is the GPT-2 model
 
 # only save checkpoints if the validation loss improves
 always_save_checkpoint = False

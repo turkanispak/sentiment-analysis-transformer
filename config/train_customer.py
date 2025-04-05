@@ -12,12 +12,12 @@ always_save_checkpoint = False
 
 wandb_log = True  # Enable WandB logging  # override via command line if you like
 wandb_project = 'transformer-sentiment-analysis'  # Using my wandb project
-wandb_run_name = 'mini-gpt' # Name for WandB run
+wandb_run_name = 'mini-gpt-block-size-fix' # Name for WandB run
 
 dataset = 'customer_service'  # Tells train.py to use data/customer_service/train.bin and val.bin
 gradient_accumulation_steps = 1
-batch_size = 64
-block_size = 256  # context of up to 256 previous characters
+batch_size = 16
+block_size = 1024  # context of up to 1024 previous characters
 
 # baby GPT model :)
 n_layer = 6

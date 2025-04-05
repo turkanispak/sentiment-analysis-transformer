@@ -1,0 +1,74 @@
+Train shape: (970, 11)
+Test shape: (30, 11)
+
+Train columns: ['issue_area', 'issue_category', 'issue_sub_category', 'issue_category_sub_category', 'customer_sentiment', 'product_category', 'product_sub_category', 'issue_complexity', 'agent_experience_level', 'agent_experience_level_desc', 'conversation']
+
+Train sample:
+                  issue_area  ...                                       conversation
+0          Login and Account  ...  Agent: Thank you for calling BrownBox Customer...
+1  Cancellations and returns  ...  Agent: Thank you for calling BrownBox customer...
+2  Cancellations and returns  ...  Agent: Thank you for calling BrownBox Customer...
+3          Login and Account  ...  Customer: Hi, I am facing an issue while loggi...
+4                      Order  ...  Agent: Thank you for contacting BrownBox custo...
+
+[5 rows x 11 columns]
+
+Missing values in train set:
+ issue_area                     0
+issue_category                 0
+issue_sub_category             0
+issue_category_sub_category    0
+customer_sentiment             0
+product_category               0
+product_sub_category           0
+issue_complexity               0
+agent_experience_level         0
+agent_experience_level_desc    0
+conversation                   0
+dtype: int64
+
+Missing values in test set:
+ issue_area                     0
+issue_category                 0
+issue_sub_category             0
+issue_category_sub_category    0
+customer_sentiment             0
+product_category               0
+product_sub_category           0
+issue_complexity               0
+agent_experience_level         0
+agent_experience_level_desc    0
+conversation                   0
+dtype: int64
+
+Train descriptive stats:
+                       issue_area  ...                                    conversation
+count                         970  ...                                             970
+unique                          6  ...                                             968
+top     Cancellations and returns  ...  Agent: You're welcome, Jane. Have a great day!
+freq                          277  ...                                               3
+
+[4 rows x 11 columns]
+
+Class proportions:
+ customer_sentiment
+neutral     0.558763
+negative    0.423711
+positive    0.017526
+Name: proportion, dtype: float64
+
+[Warning] Potential class imbalance detected!
+
+Average character length per class:
+customer_sentiment
+negative    2395.454988
+neutral     1940.826568
+positive    1702.705882
+Name: text_length, dtype: float64
+
+Average word count per class:
+customer_sentiment
+negative    417.666667
+neutral     337.778598
+positive    294.000000
+Name: word_count, dtype: float64

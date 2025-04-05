@@ -1,0 +1,21 @@
+
+[INFO] Original class distribution:
+customer_sentiment
+neutral     542
+negative    411
+positive     17
+Name: count, dtype: int64
+
+[INFO] After upsampling:
+customer_sentiment
+negative    542
+positive    542
+neutral     542
+Name: count, dtype: int64
+
+[INFO] Saved 1463 GPT-2 training samples.
+[INFO] Saved 163 GPT-2 validation samples.
+[INFO] Encoded data\customer_service\train.txt → data\customer_service\train.bin (363507 tokens)
+[INFO] Encoded data\customer_service\val.txt → data\customer_service\val.bin (40700 tokens)
+
+[INFO] Saved test.txt and labels_test.txt for test set.
