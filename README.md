@@ -1,16 +1,9 @@
-# sentiment-analysis-transformer
-Assignment 1 Transformer-based Sentiment Analysis for DI725 – Transformers and Attention-Based Deep Networks
-
----
-
-```markdown
 # Transformer-based Sentiment Classification for Customer Service Dialogues
+Assignment 1 Transformer-based Sentiment Analysis for DI725 – Transformers and Attention-Based Deep Networks
 
 This project explores sentiment classification using transformer-based models: a **nanoGPT model trained from scratch**, and a **GPT-2 model fine-tuned** with pretrained weights. The task is to classify customer support dialogues into **positive**, **neutral**, or **negative** sentiment using text-generation-based prompting and supervised learning.
 
 > 📄 Project report available in this repo: `DI725_Assignment1_Report.pdf`
-
----
 
 ## 📁 Project Structure
 
@@ -33,6 +26,7 @@ This project explores sentiment classification using transformer-based models: a
 ```bash
 conda create -n sentiment-transformers python=3.10
 conda activate sentiment-transformers
+pip install torch numpy transformers datasets tiktoken wandb tqdm
 ```
 
 > Make sure to install: `torch`, `transformers`, `wandb`, `scikit-learn`, `matplotlib`, `pandas`.
@@ -133,7 +127,7 @@ Runs inference using both models (based on `model_dir` flag) and outputs:
 ## 📄 Report & Deliverables
 
 - Project report: `DI725_Assignment1_Report.pdf`
-- Clean and modular Python code
+- Python codebase
 - Public WandB experiment tracking
 - GitHub version control with history
 
@@ -154,5 +148,3 @@ Excluded:
 - Even simple nanoGPT models can learn **structure**, but generalization remains a challenge.
 
 ---
-
-```
